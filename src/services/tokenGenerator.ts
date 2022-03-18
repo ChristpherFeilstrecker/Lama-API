@@ -14,7 +14,7 @@ export class TokenGenerator {
       },
       process.env.JWT_KEY as string,
       {
-        expiresIn: TokenGenerator.expiresIn,
+        expiresIn: process.env.ACCESS_TOKEN_EXPIRES_IN,
       }
     );
     return newToken;
