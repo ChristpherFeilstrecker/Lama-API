@@ -4,11 +4,9 @@
   "description": "Template para o projeto LAMA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node build/index.js",
+    "start": "node build/index.js",
     "build": "tsc",
-    "dev": "tsnd src/index.ts",
-    "migrations": "tsnd src/migrations.ts"
+    "dev": "tsnd src/index.ts"
   },
   "keywords": [
     "api",
